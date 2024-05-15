@@ -1,0 +1,77 @@
+
+#image1{
+    position: absolute;
+    width: 350pt;
+    height: 350pt;
+    transform: matrix(1.2, 0, 0, 1.2, 533, 150);
+    z-index: 1;
+    animation: image1 5s 5s;
+}
+#image2{
+    position: fixed;
+    width: 300pt;
+    height: 350pt;
+    transform: matrix(1, 0.4, 0, 1, 100, 70); 
+    opacity: 0.5;
+    animation: image2 5s 5s;
+}
+#image3{
+    position: fixed;
+    width: 300pt;
+    height: 350pt;
+    transform: matrix(1, -0.4, 0, 1, 966, 70); 
+    opacity: 0.5;
+    animation: image3 5s 5s;
+}
+@keyframes image1 {
+    from{
+        position: absolute;
+        width: 350pt;
+        height: 350pt;
+        transform: matrix(1.2, 0, 0, 1.2, 533, 150);
+        z-index: 1; 
+    }
+    to{
+        position: fixed;
+         width: 300pt;
+        height: 350pt;
+        transform: matrix(1, 0.4, 0, 1, 100, 70); 
+        opacity: 0.5;
+    }
+}
+@keyframes image3 {
+    from{
+         
+    }
+    to{
+        position: absolute;
+        width: 350pt;
+        height: 350pt;
+        transform: matrix(1.2, 0, 0, 1.2, 533, 150);
+        z-index: 1;
+        opacity: 1;
+    }
+}
+
+@keyframes image2 {
+    from{
+        position: fixed;
+        width: 300pt;
+        height: 350pt;
+        transform: matrix(1, 0.4, 0, 1, 100, 70); 
+        opacity: 0.5; 
+    }
+    to{
+        position: fixed;
+        width: 300pt;
+        height: 350pt;
+        transform: matrix(1, -0.4, 0, 1, 966, 70); 
+        opacity: 0.5;
+    }
+}
+
+#num{
+    font-size: 100px;
+    text-align: center;
+}
+

@@ -1,0 +1,153 @@
+body{background-image:url("Assets/Z.png"); background-attachment: fixed;background-size:2000px;background-repeat: no-repeat;background-position:center;}
+            form{background-image:url("Assets/Y.png"); background-attachment: fixed;background-size:2000px;background-repeat: no-repeat;background-position:center;}
+            a{color: black;}
+            #z{font-family: cursive;font-weight: bold;}
+            #x{background-color: white;font-family: arial;}
+            .face{
+                position: fixed;
+                left: 36%
+                
+            }
+            #bg{
+                border-radius: 50%;
+                
+            }
+            #righte{
+                animation: idle 5s infinite;
+            }
+            #lefte{
+                animation: idle 5s infinite;
+            }
+            #rightec{
+                animation: idlec 5s infinite;
+            }
+            #leftec{
+                animation: idlec 5s infinite;
+            }
+            #mouth{
+                opacity: 0;
+                animation: idlem 5s infinite;
+                opacity: 0;
+            }
+            #mouthc{
+                opacity: 1;
+                animation: idlemc 5s infinite;
+                opacity: 1;
+            }
+            @keyframes idlem{
+                10%{
+                    opacity: 1;
+                }
+                40%{
+                    opacity: 1;
+                }
+                55%{
+                    opacity: 0;
+                }
+                80%{
+                    opacity: 1;
+                }
+                100%{
+                    opacity: 0;
+                }
+
+            }
+            @keyframes idlemc{
+                10%{
+                    opacity: 0;
+                }
+                40%{
+                    opacity: 0;
+                }
+                55%{
+                    opacity: 1;
+                }
+                80%{
+                    opacity: 0;
+                }
+                100%{
+                    opacity: 1;
+                }
+
+            }
+            @keyframes idle{
+                0%{
+                    opacity: 1;
+                    
+                }
+                5%{
+                    opacity: 0;
+                    
+                }
+                10%{
+                    opacity: 1;
+                    transform: matrix(1,0,0,1,0,0);
+                    
+                }
+                25%{
+                    transform: matrix(1,0,0,1,20,0);
+                }
+                40%{
+                    transform: matrix(1,0,0,1,20,-20);
+                }
+                55%{
+                    opacity: 1;
+                    transform: matrix(1,0,0,1,0,0);
+                    
+                }
+                60%{
+                    opacity: 0;
+                    
+                }
+                65%{
+                    opacity: 1;
+                    
+                }
+                70%{
+                    transform: matrix(1,0,0,1,-20,0);
+                }
+                80%{
+                    transform: matrix(1,0,0,1,-20,-20);
+                }
+            }
+            @keyframes idlec{
+                0%{
+                    opacity: 0;
+                    
+                }
+
+                5%{
+                    opacity: 1;
+                    
+                }
+                10%{
+                    opacity: 0;
+                    transform: matrix(1,0,0,1,0,0);
+                    
+                }
+                25%{
+                    transform: matrix(1,0,0,1,10,0);
+                }
+                40%{
+                    transform: matrix(1,0,0,1,10,-10);
+                }
+                55%{
+                    opacity: 0;
+                    transform: matrix(1,0,0,1,0,0);
+                    
+                }
+                60%{
+                    opacity: 1;
+                    
+                }
+                65%{
+                    opacity: 0;
+                    
+                }
+                70%{
+                    transform: matrix(1,0,0,1,-20,0);
+                }
+                80%{
+                    transform: matrix(1,0,0,1,-20,-20);
+                }
+            }
